@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kibet & Associates Advocates | Practices</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+      :root {
+      --gold: #d4af37;
+      --navy: #0a0a23;
+    }
+    .gold-text { color: var(--gold); }
+    .gold-bg { background-color: var(--gold); }
+    .navy-bg { background-color: var(--navy); }
+    .navy-text { color: var(--navy); }
+  </style>
+  
+</head>
+<body class="bg-gray-100 text-gray-900 font-sans">
+
+<!-- HEADER -->
+<header class="fixed w-full navy-bg bg-opacity-90 backdrop-blur-md text-white shadow-lg z-50 animate__animated animate__fadeInDown">
+  <div class="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
+    <a href="#home" class="flex items-center space-x-3">
+      <img src="assets/1.jpg" alt="Kibet & Associates Logo" class="w-12 h-12 rounded-full object-cover border-2 border-gold" />
+      <span class="font-bold text-xl tracking-wide">KIBET & ASSOCIATES ADVOCATES</span>
+    </a>
+
+    <!-- Desktop Menu -->
+    <nav class="hidden md:flex space-x-6 text-lg">
+      <a class='hover:text-gold' href='/index.html'>Home</a>
+      <a class='hover:text-gold' href='/about.html'>About</a>
+      <a class='hover:text-gold' href='/practices.html'>Practices</a>
+      <a class='hover:text-gold' href='/team.html'>Our Team</a>
+      <a class='hover:text-gold' href='/insight.html'>Insights</a>
+      <a class='hover:text-gold' href='/contact.html'>Contact</a>
+    </nav>
+
+    <!-- Hamburger Menu -->
+    <div class="md:hidden">
+      <button id="menu-toggle" class="focus:outline-none">
+        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile Menu -->
+  <nav id="mobile-menu" class="hidden md:hidden px-6 pb-4 space-y-2 bg-green-700 text-white">
+    <a class='block hover:text-gold' href='/index.html'>Home</a>
+    <a class='block hover:text-gold' href='/about.html'>About</a>
+    <a class='block hover:text-gold' href='/practices.html'>Practices</a>
+    <a class='block hover:text-gold' href='/team.html'>Our Team</a>
+    <a class='block hover:text-gold' href='/insight.html'>Insights</a>
+    <a class='block hover:text-gold' href='/contact.html'>Contact</a>
+  </nav>
+</header>
+
+<br class="mt-20">
+
+<!-- HERO SECTION -->
+<section class="bg-gradient-to-br from-navy-900 to-navy-900 text-white py-16 px-4 mt-24">
+  <div class="max-w-6xl mx-auto text-center">
+    <h1 class="font-heading text-4xl md:text-5xl lg:text-6xl font-bold mb-6">Our Legal Practices</h1>
+    <p class="text-xl md:text-2xl text-gold-100 max-w-3xl mx-auto">Delivering expert legal services for individuals and organizations across Kenya</p>
+  </div>
+</section>
+
+<!-- PRACTICES -->
+<main class="max-w-6xl mx-auto px-4 py-12">
+  <section class="mb-20">
+    <div class="bg-navy-900 rounded-xl shadow-lg overflow-hidden p-6 md:p-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- Practice 1 -->
+      <div class="bg-navy-900 rounded-lg p-6 border-l-4 border-gold shadow-md hover:shadow-lg transition-shadow">
+        <h3 class="font-heading text-2xl text-white mb-4">Corporate Law</h3>
+        <p class="text-white">Guiding businesses on governance, contracts, mergers & acquisitions, and compliance.</p>
+      </div>
+      <!-- Practice 2 -->
+      <div class="bg-navy-900 rounded-lg p-6 border-l-4 border-gold shadow-md hover:shadow-lg transition-shadow">
+        <h3 class="font-heading text-2xl text-white mb-4">Litigation & Dispute Resolution</h3>
+        <p class="text-white">Representing clients in courts, arbitration, and alternative dispute resolution.</p>
+      </div>
+      <!-- Practice 3 -->
+      <div class="bg-navy-900 rounded-lg p-6 border-l-4 border-gold shadow-md hover:shadow-lg transition-shadow">
+        <h3 class="font-heading text-2xl text-white mb-4">Employment & Labor Law</h3>
+        <p class="text-white">Advising on labor disputes, contracts, workplace compliance, and employee relations.</p>
+      </div>
+      <!-- Practice 4 -->
+      <div class="bg-navy-900 rounded-lg p-6 border-l-4 border-gold shadow-md hover:shadow-lg transition-shadow">
+        <h3 class="font-heading text-2xl text-white mb-4">Intellectual Property</h3>
+        <p class="text-white">Protecting trademarks, patents, copyrights, and trade secrets for businesses and individuals.</p>
+      </div>
+      <!-- Practice 5 -->
+      <div class="bg-navy-900 rounded-lg p-6 border-l-4 border-gold shadow-md hover:shadow-lg transition-shadow">
+        <h3 class="font-heading text-2xl text-white mb-4">Real Estate & Property Law</h3>
+        <p class="text-white">Handling property transactions, leases, title issues, and dispute resolution.</p>
+      </div>
+      <!-- Practice 6 -->
+      <div class="bg-navy-900 rounded-lg p-6 border-l-4 border-gold shadow-md hover:shadow-lg transition-shadow">
+        <h3 class="font-heading text-2xl text-white mb-4">Family & Estate Law</h3>
+        <p class="text-white">Providing legal support in family matters, wills, estates, and probate administration.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- FOOTER -->
+<footer class="navy-bg text-white py-6 text-center">
+  &copy; <span id="year"></span> Kibet & Associates Advocates. All rights reserved.
+  <div class="mt-4 space-x-3 text-white text-lg">
+    <a href="mailto:info@kibetadvocates.com" class="inline-block hover:text-gold">
+      <img src="https://img.icons8.com/fluency/24/email-sign.png" class="inline w-6" alt="Email Us"/>
+    </a>
+    <a href="https://facebook.com" target="_blank" class="inline-block hover:text-gold">
+      <img src="https://img.icons8.com/fluency/24/facebook-new.png" class="inline w-6" alt="Facebook"/>
+    </a>
+    <a href="https://x.com" target="_blank" class="inline-block hover:text-gold">
+      <img src="https://img.icons8.com/ios-filled/24/ffffff/twitterx--v1.png" class="inline w-6" alt="Twitter X"/>
+    </a>
+    <a href="https://linkedin.com" target="_blank" class="inline-block hover:text-gold">
+      <img src="https://img.icons8.com/fluency/24/linkedin.png" class="inline w-6" alt="LinkedIn"/>
+    </a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kibet & Associates Advocates</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="styles.css" />
+
+  <link rel="icon" type="image/png" href="assets/1.jpg">  
+
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Kibet & Associates Advocates — Providing expert legal solutions with integrity, professionalism, and commitment to justice.">
+  <meta name="keywords" content="law firm, legal services, advocates, attorneys, Kenya, corporate law, criminal defense, property law, civil litigation, legal consultancy">
+  <meta name="author" content="Kibet & Associates Advocates">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Kibet & Associates Advocates">
+  <meta property="og:description" content="Professional legal representation and advisory services.">
+  <meta property="og:image" content="office_hero.jpg">
+  <meta property="og:type" content="website">
+</head>
+
+<body class="bg-gray-50 text-gray-900 font-sans">
+
+<!-- HEADER -->
+<header class="fixed w-full navy-bg bg-opacity-95 text-white shadow-lg z-50 animate__animated animate__fadeInDown">
+  <div class="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
+    <a href="#home" class="flex items-center space-x-3">
+      <img src="assets/1.jpg" alt="Firm Logo" class="w-12 h-12 rounded-full object-cover border-2 border-yellow-400" />
+      <span class="font-bold text-xl tracking-wide">KIBET & ASSOCIATES ADVOCATES</span>
+    </a>
+
+    <!-- Desktop Menu -->
+    <nav class="hidden md:flex space-x-6 text-lg">
+      <a class="hover:text-yellow-400" href="/">Home</a>
+      <a class="hover:text-yellow-400" href="about.html">About</a>
+      <a class="hover:text-yellow-400" href="practices.html">Practices</a>
+      <a class="hover:text-yellow-400" href="team.html">Our Team</a>
+      <a class='hover:text-gold' href="insight.html">Insights</a>
+      <a class="hover:text-yellow-400" href="contact.html">Contact</a>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="md:hidden">
+      <button id="menu-toggle" class="focus:outline-none">
+        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile Menu Links -->
+  <nav id="mobile-menu" class="hidden md:hidden px-6 pb-4 space-y-2 bg-[#111827] text-white">
+    <a class="block hover:text-yellow-400" href="index.html">Home</a>
+    <a class="block hover:text-yellow-400" href="about.html">About</a>
+    <a class="block hover:text-yellow-400" href="practices.html">Practice Areas</a>
+    <a class="block hover:text-yellow-400" href="team.html">Our Team</a>
+    <a class='hover:text-gold' href="insight.html">Insights</a>
+    <a class="block hover:text-yellow-400" href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO SECTION -->
+<section id="home" class="pt-32 relative h-[70vh]">
+  <!-- Background image -->
+  <div class="absolute inset-0">
+    <div 
+      class="w-full h-full bg-cover bg-center bg-no-repeat" 
+      style="background-image: url('assets/1.jpg');">
+    </div>
+    <!-- Overlay for text readability -->
+    <div class="absolute inset-0 bg-black bg-opacity-30"></div>
+  </div>
+
+  <!-- Hero content -->
+  <div class="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-6">
+    <h1 class="text-4xl md:text-5xl font-bold gold-text animate__animated animate__fadeIn">
+      Trusted Legal Partners for Every Challenge
+    </h1>
+    <p class="mt-4 text-lg md:text-xl max-w-2xl mx-auto animate__animated animate__fadeInUp delay-1s">
+      Providing expert legal counsel and representation with integrity, confidentiality, and excellence.
+    </p>
+    <div class="mt-6 space-x-4 animate__animated animate__fadeInUp delay-2s">
+      <a class="bg-yellow-400 text-black px-6 py-3 rounded-full font-semibold hover:bg-yellow-500" href="#practice">Our Services</a>
+      <a class="bg-transparent border-2 border-yellow-400 px-6 py-3 rounded-full font-semibold hover:bg-yellow-400 hover:text-black" href="#contact">Contact Us</a>
+    </div>
+  </div>
+</section>
+<!-- ABOUT -->
+<section id="about" class="max-w-6xl mx-auto py-16 px-6 text-center">
+  <h2 class="text-3xl font-bold mb-6 navy-text">About Our Firm</h2>
+  <p class="text-lg text-gray-700 leading-relaxed">
+    Kibet & Associates Advocates is a full-service law firm offering legal expertise across multiple practice areas.
+    Our mission is to provide personalized legal solutions founded on professionalism, integrity, and a commitment to justice.
+  </p>
+</section>
+<!-- PRACTICE AREAS -->
+<section id="practice" class="bg-gray-100 py-16 px-6 text-center">
+  <h2 class="text-3xl font-bold mb-6 navy-text">Our Practice Areas</h2>
+  <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+
+    <div class="p-6 bg-cover bg-center rounded-lg shadow text-white relative" style="background-image: url('corporate_law.jpg');">
+      <div class="absolute inset-0 bg-black bg-opacity-60 rounded-lg"></div>
+      <div class="relative z-10">
+        <h3 class="text-xl font-semibold gold-text mb-2">Corporate & Commercial Law</h3>
+        <p>Advisory services for companies, startups, and partnerships on legal compliance and transactions.</p>
+      </div>
+    </div>
+
+    <div class="p-6 bg-cover bg-center rounded-lg shadow text-white relative" style="background-image: url('assets/property.jpg');">
+      <div class="absolute inset-0 bg-black bg-opacity-60 rounded-lg"></div>
+      <div class="relative z-10">
+        <h3 class="text-xl font-semibold gold-text mb-2">Property & Conveyancing</h3>
+        <p>Guidance in property transactions, leases, and land disputes to protect your real estate interests.</p>
+      </div>
+    </div>
+
+    <div class="p-6 bg-cover bg-center rounded-lg shadow text-white relative" style="background-image: url('litigation.jpg');">
+      <div class="absolute inset-0 bg-black bg-opacity-60 rounded-lg"></div>
+      <div class="relative z-10">
+        <h3 class="text-xl font-semibold gold-text mb-2">Litigation & Dispute Resolution</h3>
+        <p>Representation in civil, criminal, and commercial disputes through efficient, strategic advocacy.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- CONTACT -->
+<section id="contact" class="max-w-6xl mx-auto py-16 px-6 text-center">
+  <h2 class="text-3xl font-bold mb-6 navy-text">Contact Us</h2>
+  <p class="text-lg mb-4">Get in touch with us for professional legal consultation and representation.</p>
+  <a href="mailto:info@kibetadvocates.com" class="bg-yellow-400 text-black px-6 py-3 rounded-full font-semibold hover:bg-yellow-500">
+    Email Us
+  </a>
+</section>
+<footer class="bg-[#0b1a2e] text-white-400 py-8 text-center">
+  &copy; <span id="year"></span> Kibet & Associates Advocates. All rights reserved.
+
+  <!-- Email -->
+  <div class="mt-2 text-sm text-white-300/80">
+    Reach us anytime for legal consultation or inquiries.
+  </div>
+
+  <!-- Icons -->
+  <div class="mt-4 space-x-3 text-white-300 text-lg">
+    <a href="mailto:lightandnaturefoundation@gmail.com" class="inline-block hover:text-yellow-500 transition">
+      <img src="https://img.icons8.com/fluency/24/email-sign.png" class="inline w-6" alt="Email Us"/>
+    </a>
+    <a href="https://facebook.com" target="_blank" class="inline-block hover:text-yellow-500 transition">
+      <img src="https://img.icons8.com/fluency/24/facebook-new.png" class="inline w-6" alt="Facebook"/>
+    </a>
+    <a href="https://x.com" target="_blank" class="inline-block hover:text-yellow-500 transition">
+      <img src="https://img.icons8.com/ios-filled/24/ffffff/twitterx--v1.png" class="inline w-6" alt="Twitter X"/>
+    </a>
+    <a href="https://instagram.com" target="_blank" class="inline-block hover:text-yellow-500 transition">
+      <img src="https://img.icons8.com/fluency/24/instagram-new.png" class="inline w-6" alt="Instagram"/>
+    </a>
+    <a href="https://linkedin.com" target="_blank" class="inline-block hover:text-yellow-500 transition">
+      <img src="https://img.icons8.com/fluency/24/linkedin.png" class="inline w-6" alt="LinkedIn"/>
+    </a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

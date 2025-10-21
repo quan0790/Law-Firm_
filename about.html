@@ -24,7 +24,7 @@
       <a class='hover:text-gold-text' href='about.html'>About</a>
       <a class='hover:text-gold-text' href='practices.html'>Practices</a>
       <a class='hover:text-gold-text' href='team.html'>Our Team</a>
-      <a class='hover:text-gold' href="insight.html">Insights</a>
+      <a class='hover:text-gold-text' href='insight.html'>Insights</a>
       <a class='hover:text-gold-text' href='contact.html'>Contact</a>
     </nav>
 
@@ -43,9 +43,10 @@
   <nav id="mobile-menu" class="hidden md:hidden px-6 pb-4 space-y-2 bg-navy-bg text-white">
     <a class='block hover:text-gold-text' href='index.html'>Home</a>
     <a class='block hover:text-gold-text' href='about.html'>About</a>
-    <a class='block hover:text-gold-text' href='#practice'>Practice Areas</a>
-    <a class='block hover:text-gold-text' href='#team'>Attorneys</a>
-    <a class='block hover:text-gold-text' href='#contact'>Contact</a>
+    <a class='block hover:text-gold-text' href='practices.html'>Practice Areas</a>
+    <a class='block hover:text-gold-text' href='team.html'>Our Team</a>
+    <a class='block hover:text-gold-text' href='insight.html'>Insights</a>
+    <a class='block hover:text-gold-text' href='contact.html'>Contact</a>
   </nav>
 </header>
 
@@ -133,6 +134,19 @@
 </footer>
 
 <!-- JS -->
-<script src="script.js"></script>
+<script>
+   // Toggle mobile menu
+  document.getElementById('menu-toggle').addEventListener('click', () => {
+    document.getElementById('mobile-menu').classList.toggle('hidden');
+  });
+
+  // Dynamic year
+  document.getElementById('year').textContent = new Date().getFullYear();
+  // Hamburger Toggle
+  document.getElementById('menu-toggle').addEventListener('click', function () {
+    const menu = document.getElementById('mobile-menu');
+    menu.classList.toggle('hidden');
+  });
+</script>
 </body>
 </html>

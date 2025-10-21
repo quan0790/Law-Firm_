@@ -5,11 +5,6 @@
 
   // Dynamic year
   document.getElementById('year').textContent = new Date().getFullYear();
-  // Hamburger Toggle
-  document.getElementById('menu-toggle').addEventListener('click', function () {
-    const menu = document.getElementById('mobile-menu');
-    menu.classList.toggle('hidden');
-  });
 
   // Dynamic Year
   document.getElementById('year').textContent = new Date().getFullYear();
